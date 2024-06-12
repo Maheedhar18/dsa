@@ -2,8 +2,8 @@
 using namespace std;
 
 // Floyd-Warshall algorithm is used to find the shortest paths between all pairs of vertices in a graph.
-// Time Complexity: O(V3), as we have three nested loops each running for V times, where V = no. of vertices.
-// Space Complexity: O(V2), where V = no. of vertices. This space complexity is due to storing the adjacency matrix of the given graph.
+// Time Complexity: O(V^3), as we have three nested loops each running for V times, where V = no. of vertices.
+// Space Complexity: O(V^2), where V = no. of vertices. This space complexity is due to storing the adjacency matrix of the given graph.
 
 
 void floyd_warshall(int vertices, vector<vector<int>>& matrix, bool &negativeCycle) {
